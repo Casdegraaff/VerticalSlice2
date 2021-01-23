@@ -22,7 +22,7 @@ public class Extra : Spikes
         rend = GetComponent<SpriteRenderer>();
         xSprite = Resources.Load<Sprite>("X");
         circleSprite = Resources.Load<Sprite>("Circle");
-        circleGreenSprite = Resources.Load<Sprite>("Circle2");
+        circleGreenSprite = Resources.Load<Sprite>("");
         triangleSprite = Resources.Load<Sprite>("Triangle");
         rend.sprite = xSprite;
 
