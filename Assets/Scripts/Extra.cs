@@ -22,7 +22,7 @@ public class Extra : Spikes
         rend = GetComponent<SpriteRenderer>();
         xSprite = Resources.Load<Sprite>("X");
         circleSprite = Resources.Load<Sprite>("Circle");
-        circleGreenSprite = Resources.Load<Sprite>("");
+        circleGreenSprite = Resources.Load<Sprite>("GreenCircle");
         triangleSprite = Resources.Load<Sprite>("Triangle");
         rend.sprite = xSprite;
 
@@ -39,7 +39,7 @@ public class Extra : Spikes
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision2D)
+    void OnTriggerEnter2D(Collider2D collision2D)
     {
         if (collision2D.gameObject.tag == "Player") //Update() + Input.GetMouseButtonDown(0)
         {
