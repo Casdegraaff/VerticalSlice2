@@ -2,28 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spikes : Extra
+public class SpikesScript : Extra
 {
-    private SpriteRenderer rend;
+    private SpriteRenderer ram;
     private Sprite spikeSprite;
     private Sprite noSpikeSprite;
 
     // Start is called before the first frame update
     void Start()
     {
-        rend = GetComponent<SpriteRenderer>();
+        ram = GetComponent<SpriteRenderer>();
         spikeSprite = Resources.Load<Sprite>("Spike");
         noSpikeSprite = Resources.Load<Sprite>("noSpike");
-        rend.sprite = spikeSprite;
+        ram.sprite = spikeSprite;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(rend.sprite = circleGreenSprite)
+        if (rend.sprite == circleGreenSprite)
         {
             Debug.Log("Not that");
-            rend.sprite = noSpikeSprite;
+            ram.sprite = noSpikeSprite;
         }
     }
 }

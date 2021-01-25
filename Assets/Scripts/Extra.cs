@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Extra : MonoBehaviour
 {
-    private SpriteRenderer rend;
+    protected SpriteRenderer rend;
     private Sprite xSprite;
     private Sprite circleSprite;
     private Sprite triangleSprite;
@@ -29,17 +29,17 @@ public class Extra : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    protected void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            Debug.Log("Bababooey");
-            rend.sprite = circleGreenSprite;
-
+           Debug.Log("Bababooey");
+           rend.sprite = circleGreenSprite;
+        
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision2D)
+    private void OnTriggerEnter2D(Collider2D collision2D)
     {
         if (collision2D.gameObject.tag == "Player") //Update() + Input.GetMouseButtonDown(0)
         {
