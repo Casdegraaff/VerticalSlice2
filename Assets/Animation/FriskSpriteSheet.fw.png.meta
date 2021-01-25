@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: 2af8c60afa43fa242987d94007f5c378
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 371309157633312016
+    second: FriskSpriteSheet.fw_0
+  - first:
+      213: 4875460748740522428
+    second: FriskSpriteSheet.fw_1
+  - first:
+      213: -4324746726651906792
+    second: FriskSpriteSheet.fw_2
+  - first:
+      213: -7260168073093866378
+    second: FriskSpriteSheet.fw_3
+  - first:
+      213: 7073431356628363612
+    second: FriskSpriteSheet.fw_4
+  - first:
+      213: -4308158659593235751
+    second: FriskSpriteSheet.fw_5
+  - first:
+      213: 8465682649797138920
+    second: FriskSpriteSheet.fw_6
+  - first:
+      213: -4793031307972891000
+    second: FriskSpriteSheet.fw_7
+  - first:
+      213: -9064046661779027131
+    second: FriskSpriteSheet.fw_8
+  - first:
+      213: -1980585152778133699
+    second: FriskSpriteSheet.fw_9
+  - first:
+      213: 5013570963213657831
+    second: FriskSpriteSheet.fw_10
+  - first:
+      213: 4855715015433488055
+    second: FriskSpriteSheet.fw_11
+  - first:
+      213: 8853777916538792487
+    second: FriskSpriteSheet.fw_0
+  - first:
+      213: -6433079130192385807
+    second: FriskSpriteSheet.fw_1
+  - first:
+      213: -2179611235126773602
+    second: FriskSpriteSheet.fw_2
+  - first:
+      213: -5975823340186013046
+    second: FriskSpriteSheet.fw_3
+  - first:
+      213: 6382150480042470287
+    second: FriskSpriteSheet.fw_4
+  - first:
+      213: 1112741015950752836
+    second: FriskSpriteSheet.fw_5
+  - first:
+      213: 1819400446443280375
+    second: FriskSpriteSheet.fw_6
+  - first:
+      213: -3774006699871256715
+    second: FriskSpriteSheet.fw_7
+  - first:
+      213: 7614597283843170155
+    second: FriskSpriteSheet.fw_8
+  - first:
+      213: -2234218372085873024
+    second: FriskSpriteSheet.fw_9
+  - first:
+      213: -7246870286704368704
+    second: FriskSpriteSheet.fw_10
+  - first:
+      213: -3362617249418715368
+    second: FriskSpriteSheet.fw_11
+  - first:
+      213: -9086098409565161532
+    second: FriskSpriteSheet.fw_12
+  - first:
+      213: -1061246782417613415
+    second: FriskSpriteSheet.fw_13
+  - first:
+      213: 1216251684394009799
+    second: FriskSpriteSheet.fw_14
+  - first:
+      213: 1974558667869200517
+    second: FriskSpriteSheet.fw_15
+  - first:
+      213: -7045798323214892451
+    second: FriskSpriteSheet.fw_16
+  - first:
+      213: 2887704966232701210
+    second: FriskSpriteSheet.fw_17
+  - first:
+      213: 7823212009575303828
+    second: FriskSpriteSheet.fw_18
+  - first:
+      213: 4641043367198882975
+    second: FriskSpriteSheet.fw_19
+  - first:
+      213: -5285344952601064415
+    second: FriskSpriteSheet.fw_20
+  - first:
+      213: -1783130388969974707
+    second: FriskSpriteSheet.fw_21
+  - first:
+      213: 3138158394952097935
+    second: FriskSpriteSheet.fw_22
+  - first:
+      213: 4761259483000651793
+    second: FriskSpriteSheet.fw_23
+  - first:
+      213: 855630702111049630
+    second: FriskSpriteSheet.fw_24
+  - first:
+      213: 2396926618992977523
+    second: FriskSpriteSheet.fw_25
+  - first:
+      213: 3924786195827620993
+    second: FriskSpriteSheet.fw_12
+  - first:
+      213: -5783633004703243455
+    second: FriskSpriteSheet.fw_13
+  - first:
+      213: 4528446067439074935
+    second: FriskSpriteSheet.fw_14
+  - first:
+      213: 8366775842382812637
+    second: FriskSpriteSheet.fw_15
+  - first:
+      213: -4818099235663781182
+    second: FriskSpriteSheet.fw_16
+  - first:
+      213: -7265128217146966543
+    second: FriskSpriteSheet.fw_17
+  - first:
+      213: 2010681768907644584
+    second: FriskSpriteSheet.fw_18
+  - first:
+      213: 2575722545051747439
+    second: FriskSpriteSheet.fw_19
+  - first:
+      213: 8199071583135283701
+    second: FriskSpriteSheet.fw_20
+  - first:
+      213: 312812129669802915
+    second: FriskSpriteSheet.fw_21
+  - first:
+      213: 6194825934849646584
+    second: FriskSpriteSheet.fw_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 344, z: 189, w: 15}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 351
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a2e731b10feda70800000000000000
+      internalID: 8853777916538792487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 351
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f867e07d9c19b6a0800000000000000
+      internalID: -6433079130192385807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 351
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9871d5312770c1e0800000000000000
+      internalID: -2179611235126773602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 351
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8279b7555c911da0800000000000000
+      internalID: -5975823340186013046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 251
+        width: 17
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b250a2c04f19850800000000000000
+      internalID: 6382150480042470287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 252
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c70c6fe00417f00800000000000000
+      internalID: 1112741015950752836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 151
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f75072011fcf3910800000000000000
+      internalID: 1819400446443280375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 152
+        width: 17
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fba3ae6e800abc0800000000000000
+      internalID: -3774006699871256715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 51
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f5023c2eb7ca960800000000000000
+      internalID: 7614597283843170155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0868b2d5a367ef0e0800000000000000
+      internalID: -2234218372085873024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 51
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c327abaed1fd6b90800000000000000
+      internalID: -7246870286704368704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FriskSpriteSheet.fw_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 51
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fdbc47d659551d0800000000000000
+      internalID: -3362617249418715368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
