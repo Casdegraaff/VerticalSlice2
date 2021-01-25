@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Extra : Spikes
+public class Extra : MonoBehaviour
 {
     private SpriteRenderer rend;
     private Sprite xSprite;

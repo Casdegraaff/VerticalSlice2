@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spikes : MonoBehaviour
+public class Spikes : Extra
 {
     private SpriteRenderer rend;
     private Sprite spikeSprite;
@@ -20,9 +20,10 @@ public class Spikes : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if(rend.sprite = circleGreenSprite)
-        //{
-        //   rend.sprite = noSpikeSprite;
-        //}
+        if(rend.sprite = circleGreenSprite)
+        {
+            Debug.Log("Not that");
+            rend.sprite = noSpikeSprite;
+        }
     }
 }

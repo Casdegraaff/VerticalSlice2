@@ -8,12 +8,6 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 2f;
     public Rigidbody2D rb;
     public Animator animator;
-
-    public float time = 0.0f;
-    public float AddPointsPerSecond = 0.42f;
-
-    public bool hit;
-
     Vector2 movement;
 
     // Start is called before the first frame update
@@ -31,14 +25,6 @@ public class Movement : MonoBehaviour
 
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
-        animator.SetFloat("time_passed", time);
-        animator.SetBool("hit", hit);
-        if (time >= 0.42f)
-        {
-            time = 0.0f;
-        }
-        time += AddPointsPerSecond * Time.deltaTime;
     }
 
 
