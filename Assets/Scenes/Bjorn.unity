@@ -154,6 +154,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!212 &99075777
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -359,6 +365,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a8e1ec9ece7fd4e922361379c90d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 99075777}
+  xSprite: {fileID: 21300000, guid: ef1fe85eb8e46da4482c42604843c89a, type: 3}
+  circleSprite: {fileID: 21300000, guid: 356e2c5518f76c146a06696c1f9c7286, type: 3}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 21300000, guid: 4d714f1467cb7db41952c9dfea3095f2, type: 3}
+  ram: {fileID: 2001608272}
+  spikeSprite: {fileID: 21300000, guid: e554501670cca5647b5fb3e9a1c15225, type: 3}
+  noSpikeSprite: {fileID: 21300000, guid: f291c2c60f739cd4abe2b5658aef2470, type: 3}
 --- !u!212 &1013211330
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -648,6 +663,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4675766882a1dee4b8ddd7920d37c6ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
+  ram: {fileID: 0}
+  spikeSprite: {fileID: 0}
+  noSpikeSprite: {fileID: 0}
 --- !u!212 &2001608272
 SpriteRenderer:
   m_ObjectHideFlags: 0

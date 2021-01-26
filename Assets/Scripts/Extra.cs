@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Extra : MonoBehaviour
 {
-    protected int points;
+    public int points;
 
-    protected SpriteRenderer rend;
-    protected Sprite xSprite;
-    protected Sprite circleSprite;
-    protected Sprite triangleSprite;
-    protected Sprite circleGreenSprite;
+    public SpriteRenderer rend;
+    public Sprite xSprite;
+    public Sprite circleSprite;
+    public Sprite triangleSprite;
+    public Sprite circleGreenSprite;
     //private Renderer colorRend;
     //[SerializeField] private Color colorToTurnTo = Color.white;
 

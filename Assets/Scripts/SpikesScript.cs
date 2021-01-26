@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpikesScript : Extra
 {
-    protected SpriteRenderer ram;
-    protected Sprite spikeSprite;
-    protected Sprite noSpikeSprite;
+    public SpriteRenderer ram;
+    public Sprite spikeSprite;
+    public Sprite noSpikeSprite;
 
     // Start is called before the first frame update
     protected void Start()

@@ -544,9 +544,11 @@ GameObject:
   m_Component:
   - component: {fileID: 64796701}
   - component: {fileID: 64796702}
+  - component: {fileID: 64796703}
+  - component: {fileID: 64796704}
   m_Layer: 0
   m_Name: kruisje (11)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -559,11 +561,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64796700}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.007, y: 0.675, z: 6.1094813}
+  m_LocalPosition: {x: 1.0070001, y: 0.6750001, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &64796702
 SpriteRenderer:
@@ -616,6 +618,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &64796703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64796700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &64796704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64796700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &68372239
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,9 +754,11 @@ GameObject:
   m_Component:
   - component: {fileID: 70129207}
   - component: {fileID: 70129208}
+  - component: {fileID: 70129209}
+  - component: {fileID: 70129210}
   m_Layer: 0
   m_Name: kruisje (4)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,7 +775,7 @@ Transform:
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 4
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &70129208
 SpriteRenderer:
@@ -780,6 +828,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &70129209
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70129206}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &70129210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70129206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &73383256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1133,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1063,6 +1155,8 @@ GameObject:
   m_Component:
   - component: {fileID: 87563317}
   - component: {fileID: 87563316}
+  - component: {fileID: 87563318}
+  - component: {fileID: 87563319}
   m_Layer: 0
   m_Name: button
   m_TagString: Untagged
@@ -1135,6 +1229,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87563318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87563315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a8e1ec9ece7fd4e922361379c90d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 925554865}
+  xSprite: {fileID: 21300000, guid: af018fac715e3154aae53df51c207457, type: 3}
+  circleSprite: {fileID: 21300000, guid: 7196fdf3d377cb74cb99bdc3321e227e, type: 3}
+  triangleSprite: {fileID: 21300000, guid: 4dc343a8987a29c48bc41bd7b6fcc39e, type: 3}
+  circleGreenSprite: {fileID: 21300000, guid: 4dc343a8987a29c48bc41bd7b6fcc39e, type: 3}
+  ram: {fileID: 1484389105}
+  spikeSprite: {fileID: 21300000, guid: e554501670cca5647b5fb3e9a1c15225, type: 3}
+  noSpikeSprite: {fileID: 21300000, guid: 699317aadcaefc444a8315a5cea79eda, type: 3}
+--- !u!61 &87563319
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87563315}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.31, y: 0.28}
+    newSize: {x: 0.31, y: 0.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.28}
+  m_EdgeRadius: 0
 --- !u!1 &91885779
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1346,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1637,9 +1778,11 @@ GameObject:
   m_Component:
   - component: {fileID: 149058676}
   - component: {fileID: 149058677}
+  - component: {fileID: 149058678}
+  - component: {fileID: 149058679}
   m_Layer: 0
   m_Name: kruisje (5)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1652,11 +1795,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149058675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.056, y: -1.477, z: 6.1094813}
+  m_LocalPosition: {x: -0.055999994, y: -1.477, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 5
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &149058677
 SpriteRenderer:
@@ -1709,6 +1852,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &149058678
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149058675}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &149058679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149058675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &150879201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,7 +2319,7 @@ GameObject:
   - component: {fileID: 167971848}
   m_Layer: 0
   m_Name: _pikesUp (5)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2145,11 +2332,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167971846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: 0.63, z: 2.3342197}
+  m_LocalPosition: {x: 4.87, y: 0.6300001, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &167971848
 BoxCollider2D:
@@ -2347,9 +2534,11 @@ GameObject:
   m_Component:
   - component: {fileID: 197405079}
   - component: {fileID: 197405080}
+  - component: {fileID: 197405081}
+  - component: {fileID: 197405082}
   m_Layer: 0
   m_Name: kruisje (9)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2362,11 +2551,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197405078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.007, y: -0.362, z: 6.1094813}
+  m_LocalPosition: {x: 1.0070001, y: -0.362, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &197405080
 SpriteRenderer:
@@ -2419,6 +2608,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &197405081
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197405078}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &197405082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197405078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &214037596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2432,7 +2665,7 @@ GameObject:
   - component: {fileID: 214037598}
   m_Layer: 0
   m_Name: _pikesUp (2)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2445,11 +2678,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214037596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: -1.02, z: 2.3342197}
+  m_LocalPosition: {x: 4.87, y: -1.0199999, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &214037598
 BoxCollider2D:
@@ -2598,7 +2831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3169,9 +3402,11 @@ GameObject:
   m_Component:
   - component: {fileID: 276397313}
   - component: {fileID: 276397314}
+  - component: {fileID: 276397315}
+  - component: {fileID: 276397316}
   m_Layer: 0
   m_Name: kruisje (8)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3184,11 +3419,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276397312}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.512, y: -0.362, z: 6.1094813}
+  m_LocalPosition: {x: 0.51199996, y: -0.362, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &276397314
 SpriteRenderer:
@@ -3241,6 +3476,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &276397315
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276397312}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &276397316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276397312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &283893625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,7 +3836,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3762,7 +4041,7 @@ GameObject:
   - component: {fileID: 347222707}
   m_Layer: 0
   m_Name: _pikesUp (1)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3779,7 +4058,7 @@ Transform:
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 1
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &347222707
 BoxCollider2D:
@@ -4049,14 +4328,14 @@ Transform:
   m_LocalPosition: {x: -0.24418347, y: 2.0090277, z: -2.3342197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1484389103}
-  - {fileID: 347222706}
-  - {fileID: 214037597}
-  - {fileID: 1908648391}
-  - {fileID: 1845521186}
-  - {fileID: 167971847}
-  - {fileID: 1824323883}
   - {fileID: 625031548}
+  - {fileID: 1824323883}
+  - {fileID: 167971847}
+  - {fileID: 1845521186}
+  - {fileID: 1908648391}
+  - {fileID: 214037597}
+  - {fileID: 347222706}
+  - {fileID: 1484389103}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4152,9 +4431,11 @@ GameObject:
   m_Component:
   - component: {fileID: 395862569}
   - component: {fileID: 395862570}
+  - component: {fileID: 395862571}
+  - component: {fileID: 395862572}
   m_Layer: 0
   m_Name: kruisje (14)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4167,11 +4448,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395862568}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.442, y: 0.66, z: 6.1094813}
+  m_LocalPosition: {x: -1.442, y: 0.65999997, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 14
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &395862570
 SpriteRenderer:
@@ -4224,6 +4505,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &395862571
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395862568}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &395862572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395862568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &402771076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4485,7 +4810,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4649,7 +4974,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4917,9 +5242,11 @@ GameObject:
   m_Component:
   - component: {fileID: 436232825}
   - component: {fileID: 436232826}
+  - component: {fileID: 436232827}
+  - component: {fileID: 436232828}
   m_Layer: 0
   m_Name: kruisje (1)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4936,7 +5263,7 @@ Transform:
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 1
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &436232826
 SpriteRenderer:
@@ -4989,6 +5316,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &436232827
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436232824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &436232828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436232824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &453148922
 GameObject:
   m_ObjectHideFlags: 0
@@ -5364,9 +5735,11 @@ GameObject:
   m_Component:
   - component: {fileID: 479981383}
   - component: {fileID: 479981384}
+  - component: {fileID: 479981385}
+  - component: {fileID: 479981386}
   m_Layer: 0
   m_Name: kruisje (3)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5383,7 +5756,7 @@ Transform:
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 3
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &479981384
 SpriteRenderer:
@@ -5436,6 +5809,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &479981385
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479981382}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &479981386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479981382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &484152562
 GameObject:
   m_ObjectHideFlags: 0
@@ -6085,7 +6502,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6743,7 +7160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7038,9 +7455,11 @@ GameObject:
   m_Component:
   - component: {fileID: 611846775}
   - component: {fileID: 611846776}
+  - component: {fileID: 611846777}
+  - component: {fileID: 611846778}
   m_Layer: 0
   m_Name: kruisje (7)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7053,11 +7472,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611846774}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.056, y: -0.362, z: 6.1094813}
+  m_LocalPosition: {x: -0.055999994, y: -0.362, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &611846776
 SpriteRenderer:
@@ -7110,6 +7529,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &611846777
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611846774}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &611846778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611846774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &617832667
 GameObject:
   m_ObjectHideFlags: 0
@@ -7205,7 +7668,7 @@ GameObject:
   - component: {fileID: 625031549}
   m_Layer: 0
   m_Name: _pikesUp (7)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7218,11 +7681,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625031547}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: 1.73, z: 2.3342197}
+  m_LocalPosition: {x: 4.87, y: 1.7300003, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &625031549
 BoxCollider2D:
@@ -7864,7 +8327,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 439841b9fd36fd148951603af5ea67cf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8368,7 +8831,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8614,7 +9077,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8860,7 +9323,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9155,9 +9618,11 @@ GameObject:
   m_Component:
   - component: {fileID: 847018974}
   - component: {fileID: 847018975}
+  - component: {fileID: 847018976}
+  - component: {fileID: 847018977}
   m_Layer: 0
   m_Name: kruisje (6)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9170,11 +9635,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847018973}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.056, y: -0.925, z: 6.1094813}
+  m_LocalPosition: {x: -0.055999994, y: -0.925, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &847018975
 SpriteRenderer:
@@ -9227,6 +9692,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &847018976
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847018973}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &847018977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847018973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &879512006
 GameObject:
   m_ObjectHideFlags: 0
@@ -9297,7 +9806,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9461,7 +9970,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9810,7 +10319,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.28515464, y: 0.17337823}
+  m_Offset: {x: 0.29325166, y: 0.14908187}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9821,7 +10330,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46996713, y: 0.34675646}
+  m_Size: {x: 0.35660845, y: 0.23337218}
   m_EdgeRadius: 0
 --- !u!50 &923454459
 Rigidbody2D:
@@ -9954,9 +10463,11 @@ GameObject:
   m_Component:
   - component: {fileID: 925554864}
   - component: {fileID: 925554865}
+  - component: {fileID: 925554866}
+  - component: {fileID: 925554867}
   m_Layer: 0
   m_Name: kruisje
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10026,6 +10537,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &925554866
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925554863}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &925554867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925554863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &928415827
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,7 +10733,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10555,9 +11110,11 @@ GameObject:
   m_Component:
   - component: {fileID: 980431311}
   - component: {fileID: 980431312}
+  - component: {fileID: 980431313}
+  - component: {fileID: 980431314}
   m_Layer: 0
   m_Name: kruisje (10)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10570,11 +11127,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980431310}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.007, y: 0.19, z: 6.1094813}
+  m_LocalPosition: {x: 1.0070001, y: 0.18999994, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 10
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &980431312
 SpriteRenderer:
@@ -10627,6 +11184,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &980431313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980431310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &980431314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980431310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &1007587477
 GameObject:
   m_ObjectHideFlags: 0
@@ -10943,7 +11544,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11298,7 +11899,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11407,7 +12008,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11571,7 +12172,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11721,7 +12322,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11924,10 +12525,10 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 073f79950a14f6e48ac5d36f8459bd2c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -12078,7 +12679,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12420,7 +13021,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 605f31f798a4397439be6936b81f64f6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12542,7 +13143,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12706,7 +13307,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12728,9 +13329,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1152023959}
   - component: {fileID: 1152023960}
+  - component: {fileID: 1152023961}
+  - component: {fileID: 1152023962}
   m_Layer: 0
   m_Name: kruisje (12)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12743,11 +13346,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152023958}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.175, z: 6.1094813}
+  m_LocalPosition: {x: -0.029999971, y: 0.17500007, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 12
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1152023960
 SpriteRenderer:
@@ -12800,6 +13403,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1152023961
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152023958}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &1152023962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152023958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &1162679816
 GameObject:
   m_ObjectHideFlags: 0
@@ -12870,7 +13517,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13143,7 +13790,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13555,7 +14202,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14047,7 +14694,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14238,7 +14885,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14648,7 +15295,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14730,7 +15377,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14812,7 +15459,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15783,7 +16430,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16520,9 +17167,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1411422604}
   - component: {fileID: 1411422605}
+  - component: {fileID: 1411422606}
+  - component: {fileID: 1411422607}
   m_Layer: 0
   m_Name: kruisje (13)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16535,11 +17184,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1411422603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.66, z: 6.1094813}
+  m_LocalPosition: {x: -0.029999971, y: 0.65999997, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 13
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1411422605
 SpriteRenderer:
@@ -16592,6 +17241,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1411422606
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411422603}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &1411422607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411422603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &1414828017
 GameObject:
   m_ObjectHideFlags: 0
@@ -16662,7 +17355,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16848,9 +17541,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1426048818}
   - component: {fileID: 1426048819}
+  - component: {fileID: 1426048820}
+  - component: {fileID: 1426048821}
   m_Layer: 0
   m_Name: kruisje (2)
-  m_TagString: Untagged
+  m_TagString: PuzzlePieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16863,11 +17558,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426048817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.504, y: -1.477, z: 6.1094813}
+  m_LocalPosition: {x: -0.50399995, y: -1.477, z: 6.1094813}
   m_LocalScale: {x: 2.2805443, y: 2.2805443, z: 2.2805443}
   m_Children: []
   m_Father: {fileID: 2038568413}
-  m_RootOrder: 2
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1426048819
 SpriteRenderer:
@@ -16920,6 +17615,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1426048820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426048817}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.21, y: 0.22}
+    newSize: {x: 0.21, y: 0.22}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.21, y: 0.22}
+  m_EdgeRadius: 0
+--- !u!114 &1426048821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426048817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f46636ccedf314e9916f6ce658b1b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
 --- !u!1 &1439559169
 GameObject:
   m_ObjectHideFlags: 0
@@ -17341,9 +18080,10 @@ GameObject:
   - component: {fileID: 1484389103}
   - component: {fileID: 1484389105}
   - component: {fileID: 1484389104}
+  - component: {fileID: 1484389106}
   m_Layer: 0
   m_Name: _pikesUp
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17360,7 +18100,7 @@ Transform:
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1484389104
 BoxCollider2D:
@@ -17427,7 +18167,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d4fc8330f8fa0b45a211751102ce2a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17439,6 +18179,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1484389106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484389102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4675766882a1dee4b8ddd7920d37c6ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 0
+  rend: {fileID: 0}
+  xSprite: {fileID: 0}
+  circleSprite: {fileID: 0}
+  triangleSprite: {fileID: 0}
+  circleGreenSprite: {fileID: 0}
+  ram: {fileID: 0}
+  spikeSprite: {fileID: 0}
+  noSpikeSprite: {fileID: 0}
 --- !u!1 &1485896448
 GameObject:
   m_ObjectHideFlags: 0
@@ -17782,7 +18543,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17946,7 +18707,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18629,7 +19390,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18902,7 +19663,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19396,7 +20157,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19751,7 +20512,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19860,7 +20621,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19985,7 +20746,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20327,7 +21088,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8b5eb1d06a1fa0a4d88bd99d1a1f6991, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -20573,7 +21334,7 @@ GameObject:
   - component: {fileID: 1824323884}
   m_Layer: 0
   m_Name: _pikesUp (6)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20586,11 +21347,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824323882}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.877, y: 1.17, z: 2.3342197}
+  m_LocalPosition: {x: 4.877, y: 1.1699998, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1824323884
 BoxCollider2D:
@@ -20791,7 +21552,7 @@ GameObject:
   - component: {fileID: 1845521187}
   m_Layer: 0
   m_Name: _pikesUp (4)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20804,11 +21565,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1845521185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: 0.08, z: 2.3342197}
+  m_LocalPosition: {x: 4.87, y: 0.07999992, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1845521187
 BoxCollider2D:
@@ -21335,7 +22096,7 @@ GameObject:
   - component: {fileID: 1908648392}
   m_Layer: 0
   m_Name: _pikesUp (3)
-  m_TagString: Untagged
+  m_TagString: SpikesPieces
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21348,11 +22109,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908648390}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: -0.47, z: 2.3342197}
+  m_LocalPosition: {x: 4.87, y: -0.4699999, z: 2.3342197}
   m_LocalScale: {x: 0.46584, y: 0.46584, z: 0.46584}
   m_Children: []
   m_Father: {fileID: 382031454}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1908648392
 BoxCollider2D:
@@ -22263,20 +23024,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 925554864}
-  - {fileID: 436232825}
-  - {fileID: 1426048818}
-  - {fileID: 479981383}
-  - {fileID: 70129207}
-  - {fileID: 149058676}
-  - {fileID: 847018974}
-  - {fileID: 611846775}
-  - {fileID: 276397313}
-  - {fileID: 197405079}
-  - {fileID: 980431311}
-  - {fileID: 64796701}
-  - {fileID: 1152023959}
-  - {fileID: 1411422604}
   - {fileID: 395862569}
+  - {fileID: 1411422604}
+  - {fileID: 1152023959}
+  - {fileID: 64796701}
+  - {fileID: 980431311}
+  - {fileID: 197405079}
+  - {fileID: 276397313}
+  - {fileID: 611846775}
+  - {fileID: 847018974}
+  - {fileID: 149058676}
+  - {fileID: 70129207}
+  - {fileID: 479981383}
+  - {fileID: 1426048818}
+  - {fileID: 436232825}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22350,7 +23111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -22962,7 +23723,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23126,7 +23887,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 36f368e59ac864e49aaf7f9052731443, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23399,7 +24160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 72d057ba786bcdd4c861857d58d3ff6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
