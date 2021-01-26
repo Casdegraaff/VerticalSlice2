@@ -4,26 +4,28 @@ using UnityEngine;
 
 public class SpikesScript : Extra
 {
-    private SpriteRenderer ram;
-    private Sprite spikeSprite;
-    private Sprite noSpikeSprite;
+    protected SpriteRenderer ram;
+    protected Sprite spikeSprite;
+    protected Sprite noSpikeSprite;
 
     // Start is called before the first frame update
-    void Start()
+    protected void Start()
     {
+        //Spikes
         ram = GetComponent<SpriteRenderer>();
         spikeSprite = Resources.Load<Sprite>("Spike");
         noSpikeSprite = Resources.Load<Sprite>("noSpike");
+
         ram.sprite = spikeSprite;
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
-        if (rend.sprite == circleGreenSprite)
-        {
-            Debug.Log("Not that");
-            ram.sprite = noSpikeSprite;
-        }
+        //if()
+        //{
+        //    GetComponent<BoxCollider2D>().enabled = false;
+        //}
+        
     }
 }
