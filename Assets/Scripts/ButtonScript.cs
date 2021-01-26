@@ -38,15 +38,13 @@ public class ButtonScript : SpikesScript
         {
             but.sprite = buttonDown;
             Debug.Log("Almost");
-            if (extraScript.points == 15)
+            if (extraScript.points == 5)
             {
                 Debug.Log("Not that");
                 foreach (GameObject obj in puzzleArray)
                 {
                     obj.GetComponent<SpriteRenderer>().sprite = extraScript.circleGreenSprite;
                 }
-                //rend.sprite = extraScript.circleGreenSprite;
-                //ram.sprite = scSprike.noSpikeSprite;
                 foreach (GameObject apj in spikeArray)
                 {
                     apj.GetComponent<SpriteRenderer>().sprite = scSprike.noSpikeSprite;
