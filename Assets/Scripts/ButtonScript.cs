@@ -50,7 +50,8 @@ public class ButtonScript : SpikesScript
             }
         }
         else
-        { 
+        {
+            but.sprite = buttonDown;
             foreach (GameObject obj in puzzleArray)
             {
                 obj.GetComponent<SpriteRenderer>().sprite = extraScript.xSprite;
