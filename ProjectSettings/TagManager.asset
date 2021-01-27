@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PuzzlePieces
   - SpikesPieces
+  - Button
   layers:
   - Default
   - TransparentFX

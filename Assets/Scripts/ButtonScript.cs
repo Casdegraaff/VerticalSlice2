@@ -10,6 +10,7 @@ public class ButtonScript : SpikesScript
     private Sprite buttonUp;
     private Sprite buttonDown;
     private Extra extraScript;
+    private Counter extraFuckingScript;
     private SpikesScript scSprike;
 
     // Start is called before the first frame update
@@ -19,6 +20,7 @@ public class ButtonScript : SpikesScript
         puzzleArray = GameObject.FindGameObjectsWithTag("PuzzlePieces");
         spikeArray = GameObject.FindGameObjectsWithTag("SpikesPieces");
         extraScript = GameObject.Find("kruisje").GetComponent<Extra>();
+        extraFuckingScript = GameObject.Find("Player").GetComponent<Counter>();
         scSprike = GameObject.Find("_pikesUp").GetComponent<SpikesScript>();
         buttonUp = Resources.Load<Sprite>("ButtonUp");
         buttonDown = Resources.Load<Sprite>("ButtonDown");
@@ -34,31 +36,26 @@ public class ButtonScript : SpikesScript
     protected void OnTriggerEnter2D(Collider2D collision2D)
     {
         //Button + Spikes
-        if (collision2D.gameObject.tag == "Player")
+        if (collision2D.gameObject.tag == "Player" && extraFuckingScript.pointBool == true)
         {
             but.sprite = buttonDown;
-            Debug.Log("Almost");
-            if (extraScript.points == 5)
+            Debug.Log("Not that");
+            foreach (GameObject obj in puzzleArray)
             {
-                Debug.Log("Not that");
-                foreach (GameObject obj in puzzleArray)
-                {
-                    obj.GetComponent<SpriteRenderer>().sprite = extraScript.circleGreenSprite;
-                }
-                foreach (GameObject apj in spikeArray)
-                {
-                    apj.GetComponent<SpriteRenderer>().sprite = scSprike.noSpikeSprite;
-                }
+                obj.GetComponent<SpriteRenderer>().sprite = extraScript.circleGreenSprite;
             }
-            else
+            foreach (GameObject apj in spikeArray)
             {
-                foreach (GameObject obj in puzzleArray)
-                {
-                    obj.GetComponent<SpriteRenderer>().sprite = extraScript.xSprite;
-                }
-                extraScript.points = 0;
+                apj.GetComponent<SpriteRenderer>().sprite = scSprike.noSpikeSprite;
             }
         }
+        else
+        { 
+            foreach (GameObject obj in puzzleArray)
+            {
+                obj.GetComponent<SpriteRenderer>().sprite = extraScript.xSprite;
+            }
+        }   
     }
     void OnTriggerExit2D(Collider2D other)
     {

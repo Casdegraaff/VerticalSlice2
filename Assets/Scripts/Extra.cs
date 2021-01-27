@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Extra : MonoBehaviour
+public class Extra : Counter
 {
-    public int points;
-
+    private GameObject pog;
+    public bool useBool = false;
     public SpriteRenderer rend;
     public Sprite xSprite;
     public Sprite circleSprite;
@@ -28,6 +28,7 @@ public class Extra : MonoBehaviour
         triangleSprite = Resources.Load<Sprite>("Triangle");
         rend.sprite = xSprite;
 
+
     }
 
     // Update is called once per frame
@@ -38,23 +39,18 @@ public class Extra : MonoBehaviour
 
     protected void OnTriggerEnter2D(Collider2D collision2D)
     {
-        if (collision2D.gameObject.tag == "Player") //Update() + Input.GetMouseButtonDown(0)
-        {
+            if (collision2D.gameObject.tag == "Player") //Update() + Input.GetMouseButtonDown(0)
+            {
             if (rend.sprite == xSprite)
             {
-                points++;
-                Debug.Log(points);
                 rend.sprite = circleSprite;
             }
             else if (rend.sprite == circleSprite)
             {
-                points--;
-                Debug.Log(points);
                 rend.sprite = triangleSprite;
             }
             else if (rend.sprite == triangleSprite)
             {
-                Debug.Log(points);
                 rend.sprite = xSprite;
             }
         }
