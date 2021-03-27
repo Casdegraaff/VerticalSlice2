@@ -23,7 +23,7 @@ Hardware:
 Github: https://github.com/Casdegraaff/VerticalSlice2B 
 
 ## Portfolio
-Reference: https://drive.google.com/file/d/1m0NNcVsRrAmFjOLKHZS-oOptNPcG7-eA/view?usp=sharing
+Reference: https://youtu.be/lf8Aldrs77A?t=3642
 
 Showreel: https://drive.google.com/file/d/1XccrMPaEi2kXPYXeXYfZ1oYOe_iODWa2/view?usp=sharing
 
