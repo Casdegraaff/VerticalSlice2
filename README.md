@@ -9,7 +9,7 @@ Mijn aandeel:
 - Puzzle Mechanic
 
 Duur:
- - 8 Weken
+ - 2 Weken
  
 ## Ontwerp
 Ten second remake van een puzzle uit de game Undertale. Meer informatie en overige links zijn hier onder te vinden
