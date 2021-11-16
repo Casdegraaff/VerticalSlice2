@@ -1,12 +1,9 @@
-# VerticalSlice2B
+# VerticalSlice2
 
 Team:
 1. Bjorn Ravensbergen.
 2. Cas de Graaff.
 3. Quinn Croese.
-
-Mijn aandeel:
-- Puzzle Mechanic
 
 Duur:
  - 2 Weken
